@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/sky.css">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section id="0"><h1>WebGL</h1></section>
+                <section id="1">
+                  <h3>提纲</h3>
+                  <ul>
+                    <li>基础</li>
+                    <li>展示图片</li>
+                    <li>2D变换</li>
+                  </ul>
+                </section>
+                <section>
+                  <section>
+                    <h3>基础</h3>
+                    <ul>
+                      <li>基础概念</li>
+                      <li>工作原理</li>
+                    </ul>
+                  </section>
+                  <section>
+                    <h3>概念</h3>
+                    <ul>
+                      <li>Vertex shader -> clipspace</li>
+                      <li>Fragment shader -> color</li>
+                      <li><GLSL></GLSL></li>
+                      <li>传参方式
+                        <ul>
+                          <li>Attributes和Buffers</li>
+                          <li>Uniform</li>
+                          <li>Textures</li>
+                          <li>Varyings</li>
+                          <li>Texture</li>
+                        </ul>
+                      </li>
+                      <li><a href="webgl-fundamantal.html">例子</a></li>
+                    </ul>
+                  </section>
+                  <section>
+                    <h3>工作方式</h3>
+                    <ul>
+                      <li>
+                        <div>
+                          Vertex shader工作方式
+                        </div>
+                        <img src="./resources/vertex-shader-anim.gif" alt="">
+                      </li>
+                      <li>
+                        <a href="fragement-shader-ill.html">Fragement shader工作方式</a>
+                      </li>
+                      <li><a href="how-it-works.html">例子</a></li>
+                    </ul>
+                  </section>
+                </section>
+                <section>
+                  <h3>2D变换</h3>
+                  <ul>
+                    <li>平移</li>
+                    <li>旋转</li>
+                    <li>缩放</li>
+                    <li><a href="2d.html">例子</a></li>
+                  </ul>
+                </section>
+            </div>
+        </div>
+        <script src="js/reveal.js"></script>
+        <script>
+            Reveal.initialize({
+              controls: true,
+              progress: true,
+              history: true,
+              center: true,
+              transition: 'slide', // none/fade/slide/convex/concave/zoom
+            });
+        </script>
+    </body>
+</html>
